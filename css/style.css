@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* nav start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+}
+a.navbar-brand{
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+#navbarSupportedContent ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111;
+    padding: 25px 20px;
+    transition: 0.3s;
+}
+#navbarSupportedContent ul li a:hover{
+    color: #FDC76B;
+}
+.message a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111;
+    border: 1px solid #111;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.message a:hover{
+    color: #fff;
+    background-color: #FDC76B;
+    border: none;
+}
+.call a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111;
+    padding: 13px 30px;
+    border-radius: 30px;
+    background-color: #FDC76B;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.call a:hover{
+    color: #fff;
+}
+/* nav end */
+/* banner start */
+#banner{
+    background-color: #E9E9E9;
+    padding: 210px 0px 100px 0px;
+    position: relative;
+}
+.banner_text h1{
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 65px;
+}
+.banner_text p {
+    font-weight: 399;
+    font-size: 17px;
+    line-height: 22px;
+    padding-top: 12px;
+    opacity: 80%;
+}
+.hire_top{
+    margin-top: 45px;
+}
+.hireMe{
+    margin-top: 11px;
+}
+.hireMe a{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #111;
+    padding: 12px 45px;
+    border-radius: 32px;
+    background-color: #FDC76B;
+    transition: 0.3s;
+}
+.hireMe a:hover{
+    color: #fff;
+}
+.fa-telegram{
+    padding-left: 10px;
+}
+.checkMy p{
+    font-weight: 399;
+    font-size: 17px;
+    line-height: 22px;
+    color: #111;
+    opacity: 80%;
+}
+.checkMy .fa-facebook-f{
+    padding: 13px 16px;
+    border: 1px solid #111;
+    border-radius: 50px;
+    margin-left: 8px;
+    color: #111;
+}
+.checkMy .fa-facebook-f:hover{
+    opacity: 60%;
+}
+.checkMy .fa-twitter{
+    padding: 13px 13px;
+    border: 1px solid #111;
+    border-radius: 50px;
+    margin-left: 8px;
+    color: #111;
+}
+.checkMy .fa-twitter:hover{
+    opacity: 60%;
+}
+.checkMy .fa-instagram{
+    padding: 13px 14px;
+    border: 1px solid #111;
+    border-radius: 50px;
+    margin-left: 8px;
+    color: #111;
+}
+.checkMy .fa-instagram:hover{
+    opacity: 60%;
+}
+.imageDiv img{
+    width: 45%;
+    position: absolute;
+    bottom: 0px;
+    box-shadow: 0px 0px 20px 0px #E9E9E9;
+}
+/* banner end */
+/* about me start */
+#aboutMe{
+    background-color: #E0E0E0;
+    padding: 100px 0px;
+}
+.aboutText h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 36px;
+    color: #111;
+}
+.aboutText p{
+    text-align: center;
+    font-weight: 399;
+    font-size: 17px;
+    line-height: 22px;
+    opacity: 80%;
+    margin-top: 30px;
+}
+.cv{
+    margin-top: 40px;
+    text-align: center;
+}
+a.cvPart{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #111;
+    padding: 12px 45px;
+    border-radius: 32px;
+    background-color: #FDC76B;
+    transition: 0.3s;
+}
+a.cvPart:hover{
+    color: #fff;
+}
+a.number{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #111;
+    padding: 12px 45px;
+    border-radius: 32px;
+    transition: 0.3s;
+    border: 1px solid #111;
+    margin-left: 20px;
+}   
+a.number:hover{
+    background-color: #FDC76B;
+    color: #fff;
+    border: none;
+}
+/* about me end */
+/* skill part start */
+#skill{
+    background-color:#E9E9E9;
+    padding: 100px 0px;
+    position: relative;
+}
+.skill_main h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #111;
+}
+.html{
+    position: relative;
+    padding-top: 15px;
+}
+.html h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    color: #111;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.level{
+    padding: 6px 10px;
+    border: 1px solid #111;
+   
+}
+.level_up {
+    padding: 5.5px 290px;
+    background-color: #FDC76B;
+    position: absolute;
+    left: 1px;
+    top: 56px;
+}
+.level_upTwo{
+    padding: 5.5px 270px;
+    background-color: #FDC76B;
+    position: absolute;
+    left: 1px;
+    top: 56px;
+}
+.level_upT{
+    padding: 5.5px 260px;
+    background-color: #FDC76B;
+    position: absolute;
+    left: 1px;
+    top: 56px;
+}
+.level_upf{
+    padding: 5.5px 290px;
+    background-color: #FDC76B;
+    position: absolute;
+    left: 1px;
+    top: 56px;
+}
+.level_upfa{
+    padding: 5.5px 240px;
+    background-color: #FDC76B;
+    position: absolute;
+    left: 1px;
+    top: 56px;
+}
+/* skill part end */
+/* portfolio start */
+#portfolio{
+    background-color: #E0E0E0;
+    padding: 100px 0px;
+}
+.projects h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 36px;
+    color: #111;
+    text-transform: uppercase;
+}
+.proTOp{
+    margin-top: 50px;
+}
+.pro01 img{
+    width: 100%;
+    padding: 20px 0px;
+}
+/* portfolio end */
+/* footer part start */
+#footer{
+    background-color:#E9E9E9;
+    padding: 100px 0px;
+}
+.with h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 46px;
+    color: #111;
+}
+.messageBox{
+    margin-top: 50px;
+    text-align: center;
+}
+input.name{
+    padding: 15px 10px;
+    border: none;
+    opacity: 70%;
+    margin-left: 17px;
+}
+::placeholder{
+    padding: 0px 0px 0px 10px
+}
+input.email{
+    padding: 15px 10px;
+    border: none;
+    margin-left: 15px;
+    opacity: 70%;
+}
+input.number{
+    padding: 15px 10px;
+    border: none;
+    margin-left: 15px;
+    opacity: 70%;
+}
+.message{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+textarea{
+    border: none !important;
+}
+.message::placeholder{
+    opacity: 70%;
+}
+a.send{
+    padding: 12px 60px;
+    background-color:#FDC76B ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #111;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+a.send:hover{
+    color: #fff;
+}
+.btnFotter{
+    text-align: center;
+    margin-top: 42px;
+}
+.phonerNumber{
+    position: relative;
+}
+.phonerNumber{
+    border: 1px solid #d9d9d9;
+}
+.mainPhone{
+    padding: 35px 0px 35px 95px;
+
+}
+.fa-phone {
+	position: absolute;
+	left: 46px;
+	top: 65px;
+	font-size: 24px;
+}
+.emailBox{
+    position: relative;
+}
+.emailMain{
+    border: 1px solid #d9d9d9;
+    padding: 35px 0px 28px 95px;
+}
+.fa-envelope{
+    position: absolute;
+	left: 46px;
+	top: 65px;
+	font-size: 24px;
+}
+.callTop{
+    margin-top: 50px;
+}
+/* footer part end */
+/* last section start */
+#lastF{
+    background-color: #E0E0E0;
+    padding: 40px 0px;
+}
+.myName h2{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.footerList a{
+    padding: 0px 23px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #111;
+    transition: 0.3s;
+    opacity: 70%;
+}
+.footerList a:hover{
+    color: #FDC76B;
+}
+.footerList{
+    padding-left: 15px;
+}
+.bottomBorder{
+    border-bottom: 1px solid #111;
+    padding-bottom: 15px;
+}
+.copyright p{
+    opacity: 70%;
+    padding-top: 10px;
+}
+.lastIcon a{
+    color: #111;
+}
+.copyTop{
+    margin-top: 25px;
+}
+.lastIcon i{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.fa-facebook-f{
+    padding: 13px 15px;
+    background-color: #E9E9E9;
+}
+.fa-twitter{
+    padding: 13px 13px;
+    background-color: #E9E9E9;
+}
+.fa-linkedin-in{
+    padding: 13px 13px;
+    background-color: #E9E9E9;
+}
+.fa-instagram{
+    padding: 13px 13px;
+    background-color: #E9E9E9;
+}
+/* last section end */
+.fa-up-long{
+    background-color: #FDC76B;
+    padding: 18px 22px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+}
